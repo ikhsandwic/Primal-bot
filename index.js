@@ -152,7 +152,7 @@ async function setUsername(username, accessToken) {
 }
 
 (async() => {
-    const email = "akmaldira69@gmail.com";
+    const email = prompt('Email : ');
     const sentOtp = await sentOTP(email);
     if (!sentOtp.success) {
         console.log(sentOtp.data);
