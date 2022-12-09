@@ -167,7 +167,7 @@ async function setUsername(username, accessToken) {
     }
     const accessToken = verifyOtp.data.access_token;
     console.log('Adding refferal...');
-    const refferal = await checkRefferal("RWFZOCD8", accessToken);
+    const refferal = await checkRefferal("9KHGIFJJ", accessToken);
     if (!refferal.success) {
         console.log(refferal.data);
         process.exit(1);
